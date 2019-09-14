@@ -1,0 +1,38 @@
+.del {
+  background: #633333;
+  color: #ffffff;
+  border: 2px solid;
+  border-color: #486348;
+  padding: 0px 8px 4px 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+}
+
+.del:hover {
+  background: #662020;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.todo {
+  margin: 15px;
+  background: #151515;
+  color: #6c6c6c;
+  padding: 10px;
+  border-bottom: 1px #121212 dotted;
+}
+.todo:hover {
+  background: #202020;
+  color: #6c6c6c;
+}
+
+.is-complete.todo:hover {
+  background: #662020;
+  color: #6c6c6c;
+}
+
+.is-complete {
+  text-decoration: line-through;
+  background: #633333;
+}
